@@ -1,0 +1,124 @@
+
+#navbar {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+
+#navbar::before {
+    content: "";
+    text-decoration-color: antiquewhite;
+    background-image: linear-gradient(to right, #7e4d4d, #020202);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -9;
+    opacity: 1;
+}
+
+#navbar ul {
+    display: flex;
+}
+
+#navbar ul li {
+    
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: rgb(247, 242, 242);
+}
+
+#navbar ul li a:hover {
+    color: purple;
+    background-color: peachpuff;
+}
+
+#logo {
+    margin: 10px 34px;
+  
+}
+
+#logo img {
+    height: 56px;
+    margin: 3px 5px;
+    border-radius: 
+    border-style= solid;
+}
+
+
+/*event*/
+
+#event {
+    border:1px solid black;
+    height: 56px;
+    margin: 3px 5px;
+}
+
+/*table*/
+
+#table{
+    position: relative;
+    display: flex;
+    align-items: center;
+
+}
+
+#table::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+   
+}
+
+#table ul {
+    display: flex;
+}
+
+#table ul li {
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+table {
+    
+    
+    padding:30px;
+   
+  }
+
+  th{
+    background-image: linear-gradient(to top, #ffffff, #faf2f2);
+      border-bottom:burlywood solid;
+    font-size: 20px; 
+    font-family: 'Times New Roman', Times, serif; 
+    font-weight:100;
+   
+    padding:20px;
+    margin: 80px;
+
+  }
+
+  td{
+    background-image: linear-gradient(to bottom, #ffffff, #faf2f2);
+    font-size: 15px; 
+    font-family: 'Times New Roman', Times, serif; 
+    font-weight:100;
+    padding:40px;
+    margin: 40px;
+  }
+
+  /*head*/
+ li{
+    
+      text-align: center;
+  }
+
+
